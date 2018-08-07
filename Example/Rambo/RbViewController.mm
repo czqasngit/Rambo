@@ -71,9 +71,10 @@ static int read_data(void *opaque, uint8_t *buffer, int buffer_size, int buffer_
                 [self.imageView startAnimating] ;
             }) ;
             rambo_frames_free(frames, size, false) ;
+            rambo_context_free(context) ;
         }) ;
     }
-    rambo_context_free(context) ;
+    
 }
 
 @end
