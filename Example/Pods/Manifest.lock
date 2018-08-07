@@ -1,0 +1,18 @@
+PODS:
+  - Rambo (1.0.0):
+    - Rambo/FFMpeg (= 1.0.0)
+  - Rambo/FFMpeg (1.0.0)
+
+DEPENDENCIES:
+  - Rambo (from `../`)
+
+EXTERNAL SOURCES:
+  Rambo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Rambo: f964a74315348b358bff5b7f9f530cee46c12968
+
+PODFILE CHECKSUM: 47f40c6fcb26243da068a5f2745da987e80000e5
+
+COCOAPODS: 1.5.0

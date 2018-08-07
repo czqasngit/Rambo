@@ -1,0 +1,11 @@
+#use_frameworks!
+
+target 'Rambo_Example' do
+  pod 'Rambo', :path => '../'
+
+  target 'Rambo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
