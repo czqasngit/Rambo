@@ -8,4 +8,5 @@
 #include "avutil.h"
 #include "swscale.h"
 #include "swresample.h"
-double FFmpegVersionNumber = 3.4.4;
+
+

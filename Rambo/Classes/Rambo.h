@@ -9,19 +9,17 @@
 #define Rambo_h
 
 
-#include <stdio.h>
-#include <stdbool.h>
 
-#ifdef __cplusplus
-extern "C" {
-#endif
 
-    
+
+
+
 #include <FFmpeg/avcodec.h>
 #include <FFmpeg/avformat.h>
 #include <FFmpeg/imgutils.h>
 #include <FFmpeg/swscale.h>
-
+#include <stdio.h>
+#include <stdbool.h>
     
 typedef struct RamboVideoInformation {
     int64_t duration ;
@@ -121,9 +119,7 @@ void rambo_context_free(RamboContext *context) ;
 
     
 
-#ifdef __cplusplus
-}
-#endif
+
     
 #endif /* Rambo_h */
 

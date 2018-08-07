@@ -120,7 +120,7 @@
 		F2A864890624DABFD4E49D8DFDB5C3E8 /* d3d11va.h in Headers */ = {isa = PBXBuildFile; fileRef = F84387C7D695925BB90701C20EC94A15 /* d3d11va.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F3367028BB6823E6ECF2873F0293DD7F /* imgutils.h in Headers */ = {isa = PBXBuildFile; fileRef = AC020B8300D89940FAAF74C05BF06393 /* imgutils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F50A3CB06BFF96B9AB8B34D68FFB72CA /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 0100C82340216760EE00F6014956B38A /* common.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FEB0E20724E8B12103CF8DECF4CE3966 /* Rambo.c in Sources */ = {isa = PBXBuildFile; fileRef = F19B001524A40D577F93DAC99565F943 /* Rambo.c */; };
+		FEB0E20724E8B12103CF8DECF4CE3966 /* Rambo.m in Sources */ = {isa = PBXBuildFile; fileRef = F19B001524A40D577F93DAC99565F943 /* Rambo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -167,7 +167,7 @@
 		30840E208D401D6EA47E984A9E25BBCA /* pixdesc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixdesc.h; path = Rambo/FFmpeg.framework/Headers/pixdesc.h; sourceTree = "<group>"; };
 		346ACA6401C94257E18B7C69BD5EA9C6 /* hwcontext_dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_dxva2.h; path = Rambo/FFmpeg.framework/Headers/hwcontext_dxva2.h; sourceTree = "<group>"; };
 		36FB8FEE047C37816B31AB458E6FC1EA /* tree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tree.h; path = Rambo/FFmpeg.framework/Headers/tree.h; sourceTree = "<group>"; };
-		3BA164D9D16525DF1ADE0FB21F4A73A5 /* libPods-Rambo_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Rambo_Tests.a"; path = "libPods-Rambo_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA164D9D16525DF1ADE0FB21F4A73A5 /* libPods-Rambo_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rambo_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C148D96006DD6E3880C70D9D5285C75 /* vda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vda.h; path = Rambo/FFmpeg.framework/Headers/vda.h; sourceTree = "<group>"; };
 		3C1E9C818E2B8EFF2EE127CBAD11ED06 /* samplefmt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = samplefmt.h; path = Rambo/FFmpeg.framework/Headers/samplefmt.h; sourceTree = "<group>"; };
 		3C3326A0A8D5DFE3558D46103F127421 /* pixelutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pixelutils.h; path = Rambo/FFmpeg.framework/Headers/pixelutils.h; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		602209E64095FE787455FDCF15C40B8F /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = Rambo/FFmpeg.framework/Headers/buffer.h; sourceTree = "<group>"; };
 		620936C52461FAD23BDC0272896C71F1 /* ffversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffversion.h; path = Rambo/FFmpeg.framework/Headers/ffversion.h; sourceTree = "<group>"; };
 		63DE7DD283004497611091446585D4D5 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = Rambo/FFmpeg.framework/Headers/blowfish.h; sourceTree = "<group>"; };
-		6512B0C18D4CA47F80FE036674EC6609 /* Rambo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Rambo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6512B0C18D4CA47F80FE036674EC6609 /* Rambo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Rambo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		654357DE466F09099E5537CDD3D4DDDF /* stereo3d.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stereo3d.h; path = Rambo/FFmpeg.framework/Headers/stereo3d.h; sourceTree = "<group>"; };
 		6598E16BD5B03EF33AF54E49185B251D /* rational.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rational.h; path = Rambo/FFmpeg.framework/Headers/rational.h; sourceTree = "<group>"; };
 		65BF39F6715B9910594E26654D5EC3B2 /* hwcontext_vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vdpau.h; path = Rambo/FFmpeg.framework/Headers/hwcontext_vdpau.h; sourceTree = "<group>"; };
@@ -199,7 +199,7 @@
 		78426DBA6E183144E49F57B732503586 /* aes_ctr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ctr.h; path = Rambo/FFmpeg.framework/Headers/aes_ctr.h; sourceTree = "<group>"; };
 		7C18D1F91EE136F49B72C5076E0354CC /* avcodec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avcodec.h; path = Rambo/FFmpeg.framework/Headers/avcodec.h; sourceTree = "<group>"; };
 		7CE3FFD239C50F19255E667C71E1DEAA /* lfg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lfg.h; path = Rambo/FFmpeg.framework/Headers/lfg.h; sourceTree = "<group>"; };
-		7DF9856B2A4AFC36B76A131EAE0045E8 /* libPods-Rambo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Rambo_Example.a"; path = "libPods-Rambo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF9856B2A4AFC36B76A131EAE0045E8 /* libPods-Rambo_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Rambo_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DF32E2F16E6904EBD6517B0C62D0C7 /* FFmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FFmpeg.framework; path = Rambo/FFmpeg.framework; sourceTree = "<group>"; };
 		82C068ABFE8362CCA89AF792095A2C62 /* vdpau.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdpau.h; path = Rambo/FFmpeg.framework/Headers/vdpau.h; sourceTree = "<group>"; };
 		847463CF6E099863298AB95178D10B33 /* VideoToolBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolBox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/VideoToolBox.framework; sourceTree = DEVELOPER_DIR; };
@@ -207,9 +207,9 @@
 		85C3C4D70C0EAEE0B0E3005013F87736 /* hwcontext_cuda.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_cuda.h; path = Rambo/FFmpeg.framework/Headers/hwcontext_cuda.h; sourceTree = "<group>"; };
 		866710270EFC3DC52B9822D35471F0E1 /* videotoolbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = videotoolbox.h; path = Rambo/FFmpeg.framework/Headers/videotoolbox.h; sourceTree = "<group>"; };
 		8CBB2A0EE357BA0017173AA4865F7421 /* parseutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parseutils.h; path = Rambo/FFmpeg.framework/Headers/parseutils.h; sourceTree = "<group>"; };
-		8EC6B7D3D457096A7489C86700D86531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8EC6B7D3D457096A7489C86700D86531 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		91DB0C435BBE0FF404666E3A9A8BDCF5 /* channel_layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = channel_layout.h; path = Rambo/FFmpeg.framework/Headers/channel_layout.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		945B749312EE004D6614104D70BBAE93 /* avdct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avdct.h; path = Rambo/FFmpeg.framework/Headers/avdct.h; sourceTree = "<group>"; };
 		991423545444277887C8A55194A8F951 /* avassert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = avassert.h; path = Rambo/FFmpeg.framework/Headers/avassert.h; sourceTree = "<group>"; };
 		99EA8B2DD0F43F6C1DA22A433902749F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
@@ -220,7 +220,7 @@
 		A276448FA2E34CF6653B844BAAE9BEF8 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = Rambo/FFmpeg.framework/Headers/rc4.h; sourceTree = "<group>"; };
 		A3208C804F60387508237C9C4F622CE8 /* libavformatVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavformatVersion.h; path = Rambo/FFmpeg.framework/Headers/libavformatVersion.h; sourceTree = "<group>"; };
 		A4E8D07298E9497D088D46FE12E07049 /* audio_fifo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = audio_fifo.h; path = Rambo/FFmpeg.framework/Headers/audio_fifo.h; sourceTree = "<group>"; };
-		AA78E8707A886A97DCBEF9FA64F70DAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AA78E8707A886A97DCBEF9FA64F70DAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		AC020B8300D89940FAAF74C05BF06393 /* imgutils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = imgutils.h; path = Rambo/FFmpeg.framework/Headers/imgutils.h; sourceTree = "<group>"; };
 		AC3164EBD2DF3BCC4BDF38BEFE68C2F0 /* Rambo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Rambo-dummy.m"; sourceTree = "<group>"; };
 		ACFB7C79C5DF062906F6FB56AA3CB03E /* Rambo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Rambo.xcconfig; sourceTree = "<group>"; };
@@ -244,7 +244,7 @@
 		C59D3C23B26EFAD555F4846D393DDCD6 /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = Rambo/FFmpeg.framework/Headers/sha.h; sourceTree = "<group>"; };
 		C66036316C4D04D549D708623F182199 /* frame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = frame.h; path = Rambo/FFmpeg.framework/Headers/frame.h; sourceTree = "<group>"; };
 		C8435BA9D3FA0387C97BCA78D322695C /* mastering_display_metadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mastering_display_metadata.h; path = Rambo/FFmpeg.framework/Headers/mastering_display_metadata.h; sourceTree = "<group>"; };
-		CA27A6FD400A7EE875A8041E9993AEE1 /* libRambo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRambo.a; path = libRambo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA27A6FD400A7EE875A8041E9993AEE1 /* libRambo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRambo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA2CD73A5709590948B7686B27E48D1 /* bprint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bprint.h; path = Rambo/FFmpeg.framework/Headers/bprint.h; sourceTree = "<group>"; };
 		CDE47DDC82C0D8DF5A0279B3BF6989AA /* AudioToolBox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolBox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/AudioToolBox.framework; sourceTree = DEVELOPER_DIR; };
 		CDEC553F5F0797DB5309906B0AE34E1C /* swresample.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = swresample.h; path = Rambo/FFmpeg.framework/Headers/swresample.h; sourceTree = "<group>"; };
@@ -267,7 +267,7 @@
 		EE2E356CBB9AC5A3A94F16B9D2A4DBF0 /* dxva2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dxva2.h; path = Rambo/FFmpeg.framework/Headers/dxva2.h; sourceTree = "<group>"; };
 		EE5A5CD29D9B89F6F0C3D19153D40B5F /* hwcontext_vaapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hwcontext_vaapi.h; path = Rambo/FFmpeg.framework/Headers/hwcontext_vaapi.h; sourceTree = "<group>"; };
 		EF4910D7B41E3CD926D0482A1297EB7E /* libavcodecVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = libavcodecVersion.h; path = Rambo/FFmpeg.framework/Headers/libavcodecVersion.h; sourceTree = "<group>"; };
-		F19B001524A40D577F93DAC99565F943 /* Rambo.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Rambo.c; path = Rambo/Classes/Rambo.c; sourceTree = "<group>"; };
+		F19B001524A40D577F93DAC99565F943 /* Rambo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Rambo.m; path = Rambo/Classes/Rambo.m; sourceTree = "<group>"; };
 		F3165AC705412E8D76FC9E5DFCE5F1E7 /* Pods-Rambo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rambo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F3C2137B15BDDC4F3C12C5E27D628F01 /* timecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = timecode.h; path = Rambo/FFmpeg.framework/Headers/timecode.h; sourceTree = "<group>"; };
 		F84387C7D695925BB90701C20EC94A15 /* d3d11va.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = d3d11va.h; path = Rambo/FFmpeg.framework/Headers/d3d11va.h; sourceTree = "<group>"; };
@@ -496,7 +496,7 @@
 		8965E0E8FB08AC47C678B3E14B75DED1 /* Rambo */ = {
 			isa = PBXGroup;
 			children = (
-				F19B001524A40D577F93DAC99565F943 /* Rambo.c */,
+				F19B001524A40D577F93DAC99565F943 /* Rambo.m */,
 				6F31D03A80F0120E61D1DFA991B7037F /* Rambo.h */,
 				6561B69C4307F60CBD82C350B7E75545 /* FFMpeg */,
 				6C18857DF27C68F400440C6ABB5871A2 /* Pod */,
@@ -754,7 +754,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4013E2FB9CAFE49D21B4CAD34D7FF80C /* Rambo-dummy.m in Sources */,
-				FEB0E20724E8B12103CF8DECF4CE3966 /* Rambo.c in Sources */,
+				FEB0E20724E8B12103CF8DECF4CE3966 /* Rambo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

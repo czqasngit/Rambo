@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.source_files = 'Rambo/Classes/**/*'
   s.libraries = 'bz2','c++','iconv','z'
-  s.public_header_files = 'Pod/Classes/**/*.{h}'
+  s.public_header_files = 'Rambo/Classes/**/*.{h}'
   s.subspec 'FFMpeg' do |ss|
     ss.source_files = 'Rambo/FFmpeg.framework/Headers/**.{h,m}'
     ss.public_header_files = 'Rambo/FFmpeg.framework/Headers/**.h'
