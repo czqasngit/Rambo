@@ -1,6 +1,5 @@
 # Rambo
 
-[![CI Status](https://img.shields.io/travis/czqasngit/Rambo.svg?style=flat)](https://travis-ci.org/czqasngit/Rambo)
 [![Version](https://img.shields.io/cocoapods/v/Rambo.svg?style=flat)](https://cocoapods.org/pods/Rambo)
 [![License](https://img.shields.io/cocoapods/l/Rambo.svg?style=flat)](https://cocoapods.org/pods/Rambo)
 [![Platform](https://img.shields.io/cocoapods/p/Rambo.svg?style=flat)](https://cocoapods.org/pods/Rambo)
