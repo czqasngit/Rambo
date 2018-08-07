@@ -7,6 +7,7 @@
 Extract image from video file/stream base on ffmpeg written by C
 
 基于C编写的ffmpeg从视频文件/流中提取图像
+
 ![Rambo_demo-2](http://pba6dsu9x.bkt.clouddn.com/Rambo_demo-2.gif)
 
 ## Architecture
